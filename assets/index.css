@@ -1,0 +1,381 @@
+body{
+    margin: 0px;
+    background-color: darkgrey;
+    background-image: url("./images/chennaiimg.jpg");
+    
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+    text-align: center;
+   
+
+
+}
+
+
+
+
+
+/* #h4{
+    text-decoration: underline;
+    margin-right: 20px;
+    
+   
+} */
+/* #help{
+    text-decoration: underline;
+    margin-right: 20px;
+
+} */
+
+#form{
+    
+    clear: both;
+    background-color:#000000;
+    opacity: 0.6;
+
+    width:8cm;
+    height: 8cm;
+    margin: auto;
+    margin-top: 50px;
+    border:4px solid #54fdbf;
+    border-radius: 10px;
+   
+    outline:4px solid #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+    
+
+}
+
+#form:hover{
+    opacity: 1;
+    width:15cm;
+    height: 10cm;
+    transition: 2s;
+    
+}
+
+#searchdiv{
+    background-color: #fff;
+    
+    border-radius: 5px;
+    border:2px solid rgb(9, 248, 49);
+    display:hide;
+   
+    
+}
+#location{
+    margin:0px;
+    width:99%;
+    height: 1cm;
+    border-radius: 5px;
+    border:2px solid #fff;
+    outline:3px solid rgb(71, 219, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+   
+    
+
+}
+
+
+
+
+#imgform{
+    width: 3cm;
+    height: 3cm;
+    margin-top: 40px;
+    
+     
+}
+#imagediv{
+    padding: 10px 40px;
+    text-align: center;
+   
+    
+}
+#imgform:hover{
+    transition: 5s;
+    transform:rotate(310deg);
+    width: 5cm;
+    height: 5cm;
+}
+
+#subbtn{
+   
+margin-top: 30px;
+border-radius: 5px;
+width:100%;
+padding: 10px ;
+background-color: blue;
+color: #fff;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 880px;
+font-size: 15px;
+border:2px solid #fff
+
+
+
+
+    
+}
+
+body{
+    counter-reset: li;
+
+}
+.li{
+    list-style: none;
+}
+
+.li[class=li]::before{
+    counter-increment: li;
+    content: counter(li) ". ";
+}
+
+#citynamesdivision{
+    background-color: #fff;
+    width:100%;
+    height:100%;
+}
+
+#citynamesdiv{
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    width:100%;
+    height:100%;
+
+    
+    
+    
+    
+    
+    border-radius: 10px;
+    
+    
+    
+ 
+   
+}
+#para{
+    height: 10cm;
+}
+
+.li{
+    font-size: 15px;
+    padding: 10px;
+    display:flex;
+    
+    border: 2px solid grey;
+    
+    
+    
+    
+    
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding:5px 5px 5px 5px;
+    border: 4px solid rgb(141, 136, 136);
+    outline: 2px solid #0c1a00;
+    text-align: right;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    
+    
+    
+    
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+li:hover{
+    cursor: pointer;
+}
+
+
+#h3{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+
+
+}
+
+#outputdivision{
+
+    
+   
+    text-align: center;
+    
+
+}
+
+
+
+
+#output{
+   
+
+background-color: #ffffff;
+
+border: 1px solid grey;
+border-radius: 10px;
+
+justify-self:center;
+
+
+
+
+}
+
+    
+
+
+
+
+
+
+.finallists{
+    padding: 20px 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #778675;
+   
+    
+}
+#finallinks{
+    margin: auto;
+    text-align: center;
+    padding:10px;
+    background-color: #ffffff;
+    
+
+}
+
+
+.finallink{
+    
+    background-color: royalblue;
+    color:#fff;
+    padding:10px
+    
+    
+    
+   
+}
+
+/* Header assembly
+
+
+
+
+
+
+ */
+ /* <header id="header">
+        <div id="logoandname">
+            <img  id="logo" src="https://th.bing.com/th?id=OIP.BZk8Aks7J2mmL7TtVZEq7gHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"  alt="dominos logo"/>
+        <h3 id="name">Dominos Stores In Chennai</h3>
+        </div>
+
+        
+        <div id="headerdiv">
+            <h3 id="h4"> Click To Check 
+                Available locations</h3>
+            <h3 id="help">Help</h3>
+        </div>
+        
+    </header> */
+
+
+
+
+header{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+
+    
+    
+} 
+
+ #logoandname{
+
+    
+    display: flex;
+    
+    
+
+}
+#logo{
+    width:1cm;
+    height: 0.9cm;
+    margin: 25px  30px  20px 20px ;
+
+}
+#name{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7cm;
+    
+    
+    
+
+}
+
+
+
+
+#headerdiv {
+    display: flex;
+    text-align: right;
+    background-color: #000201;
+    justify-content: right;
+    
+}
+
+#h4{
+    color: #fff;
+    text-decoration: underline;
+
+}
+    
+
+
+#help{
+    margin-left:10px;
+    text-decoration: underline;
+    color:#fff;
+    
+
+}
+#backbutton{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: underline;
+}
+#home{
+    color:#fff;
+    margin-top:15px;
+    margin-left: 10px;
+    text-decoration: underline;
+} 
+    
+
+
+
+/*#name:hover{
+    text-shadow: 10px 5px black;
+    transition: 2s;
+}
+
+
